@@ -1,0 +1,574 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1659495470366282, "dur": 1214112, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495470367484, "dur": 143689, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495470511305, "dur": 1059138, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495471570460, "dur": 9934, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495483684967, "dur": 3825580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495483685172, "dur": 11081, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495483696254, "dur": 47913, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495483744198, "dur": 1899950, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495485644150, "dur": 1853080, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495487497231, "dur": 13315, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495487630807, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1659495485148641, "dur": 467071, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659495485149497, "dur": 203238, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659495485600645, "dur": 4020, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659495485604668, "dur": 11039, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659495485605277, "dur": 9936, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659495485621291, "dur": 1095, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659495485619690, "dur": 2713, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495487630895, "dur": 133, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1659495485674143, "dur":1063, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495485675210, "dur":50, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1659495485675268, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1659495485675283, "dur":498, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1659495485675799, "dur":419, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495485676218, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487489782, "dur":435, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490218, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490227, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490228, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490234, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490235, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490239, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490240, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490244, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490245, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490250, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490251, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490255, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490256, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490260, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490261, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490266, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490267, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490272, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490272, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490277, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490278, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490282, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490283, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490287, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490288, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490292, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490293, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490297, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490298, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490302, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490303, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490308, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490316, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487490361, "dur":960, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1659495485676117, "dur":140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495485676257, "dur":2411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495485678675, "dur":2987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1659495485681664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495485698366, "dur":126335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1659495485824715, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495485824730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495485824734, "dur":55206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495485879952, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495485879978, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495485879982, "dur":27323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495485907323, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495485907339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495485907345, "dur":34984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495485942342, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495485942395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495485942399, "dur":155732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486098141, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486098155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495486098159, "dur":279705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486377881, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486378501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495486378506, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486380162, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486380176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495486380181, "dur":69464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486449659, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486449674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495486449679, "dur":35665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486485358, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486485371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659495486485376, "dur":181871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659495486667256, "dur":822561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495485675854, "dur":372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495485676228, "dur":2373, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495485678613, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1659495485678614, "dur":1006, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495485679625, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1659495485679628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495485691046, "dur":5314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1659495485696362, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1659495485696384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495485696522, "dur":278837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1659495485975372, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659495485975388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495485975392, "dur":172795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659495486148197, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659495486148207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495486148211, "dur":306591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659495486454817, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659495486454832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495486454837, "dur":37942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659495486492799, "dur":40514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659495486533316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495486533336, "dur":25612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659495486558961, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1659495486558975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495486558979, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1659495486561148, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1659495486561162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659495486561164, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1659495486562838, "dur":926989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495485675883, "dur":349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495485676233, "dur":2373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495485678613, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1659495485678678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495485687630, "dur":54499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1659495485742142, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495485742160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495485742477, "dur":28570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495485771057, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495485771072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495485771076, "dur":37489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495485808581, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495485808598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495485808604, "dur":27354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495485835969, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495485835980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495485835997, "dur":96480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495485932493, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495485932509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495485932515, "dur":78483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486011011, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486011025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495486011029, "dur":23079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486034118, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486034129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495486034134, "dur":172851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486207008, "dur":26307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486233319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495486233324, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486233896, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486234610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495486234614, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486235195, "dur":32932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486268130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495486268135, "dur":111422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486379567, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486379579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495486379598, "dur":181990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659495486561607, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1659495486561622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659495486561626, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1659495486563038, "dur":926750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495485675995, "dur":245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495485676240, "dur":2368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495485678613, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1659495485678672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495485687306, "dur":87875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1659495485775196, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495485775217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495485775230, "dur":42552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495485817794, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495485817809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495485817813, "dur":47224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495485865053, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495485865069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495485865075, "dur":74984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495485940070, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495485940079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495485940083, "dur":126956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495486067052, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495486067063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495486067068, "dur":142947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495486210024, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495486210035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495486210039, "dur":35338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495486245392, "dur":22644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495486268042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495486268050, "dur":111777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495486379839, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495486379857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495486379869, "dur":179107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659495486558993, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1659495486559352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495486559356, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1659495486560331, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1659495486560346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659495486560371, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1659495486561867, "dur":927953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495485676056, "dur":190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495485676246, "dur":2438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495485678685, "dur":3860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1659495485682547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495485698835, "dur":43181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1659495485742032, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1659495485742069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495485742306, "dur":278630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1659495486020948, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659495486020961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495486020964, "dur":186065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659495486207042, "dur":57221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659495486264267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495486264272, "dur":115523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659495486379808, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659495486379822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495486379826, "dur":120165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659495486500005, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1659495486500141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495486500315, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1659495486500951, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1659495486500965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495486500979, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1659495486501858, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1659495486501872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495486501876, "dur":649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1659495486502536, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1659495486502548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659495486502552, "dur":249640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1659495486752202, "dur":737619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485676175, "dur":88, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485676263, "dur":2412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485678677, "dur":3659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1659495485682338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485698639, "dur":7311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1659495485705959, "dur":35194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga.exe" }}
+,{ "pid":12345, "tid":6, "ts":1659495485741156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485741161, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga.exe" }}
+,{ "pid":12345, "tid":6, "ts":1659495485742398, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495485742415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485742523, "dur":44342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495485786878, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495485786893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485786897, "dur":78149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495485865061, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495485865075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485865079, "dur":42229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495485907327, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495485907345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485907350, "dur":30870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495485938231, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495485938245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495485938248, "dur":136663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495486074921, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495486074944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495486074948, "dur":53388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495486128347, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495486128359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495486128363, "dur":250856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495486379230, "dur":34072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495486413305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495486413311, "dur":36576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495486449908, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495486449922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495486449926, "dur":110788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659495486560729, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1659495486560743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659495486560746, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1659495486562489, "dur":927329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659495485676107, "dur":144, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659495485676252, "dur":2425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659495485678680, "dur":3268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1659495485681966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659495485698463, "dur":6394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1659495485704874, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659495485704901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659495485704912, "dur":1463033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659495487167957, "dur":321822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495485676202, "dur":65, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495485676267, "dur":2391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495485678662, "dur":2480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1659495485681144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495485698023, "dur":277354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1659495485975388, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495485975400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495485975404, "dur":235915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486211328, "dur":45879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486257210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495486257215, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486257951, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486258692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495486258698, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486259368, "dur":15688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486275060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495486275080, "dur":105022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486380112, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486380122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495486380125, "dur":69672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486449817, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486449833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659495486449837, "dur":123891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659495486573746, "dur":916035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485676291, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485676291, "dur":2357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485678652, "dur":2318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1659495485680972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485694219, "dur":47831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1659495485742062, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485742108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485742423, "dur":59436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485801873, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485801901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485801907, "dur":27217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485829136, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485829151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485829155, "dur":43111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485872278, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485872289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485872293, "dur":39545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485911851, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485911865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485911869, "dur":28554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485940431, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495485940440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495485940443, "dur":147910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495486088363, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495486088375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495486088379, "dur":290878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495486379268, "dur":31519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495486410791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495486410796, "dur":39081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495486449891, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495486449908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495486449912, "dur":37761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495486487687, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495486487700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659495486487705, "dur":131515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659495486619230, "dur":870585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485676228, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485676228, "dur":2379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485678613, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1659495485678657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485684355, "dur":16186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1659495485700551, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1659495485700570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485700586, "dur":45055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1659495485745652, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485745669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485745681, "dur":52858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485798550, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485798565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485798569, "dur":27471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485826050, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485826060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485826063, "dur":39758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485865836, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485865857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485865878, "dur":26917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485892812, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485892826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485892831, "dur":24983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485917825, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495485917834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495485917838, "dur":92730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495486010579, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495486010590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495486010594, "dur":212895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495486223500, "dur":110613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495486334116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495486334121, "dur":45736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495486379871, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495486379886, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495486379890, "dur":69817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495486449720, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495486449735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659495486449739, "dur":140851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659495486590602, "dur":899222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485676382, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485676383, "dur":2250, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485678637, "dur":1914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1659495485680553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485694038, "dur":82114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1659495485776168, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485776190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485776195, "dur":37969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485814181, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485814196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485814201, "dur":28640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485842855, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485842871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485842877, "dur":36562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485879452, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485879466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485879471, "dur":32053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485911540, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485911560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485911567, "dur":29485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485941062, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495485941109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495485941112, "dur":145522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495486086646, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495486086660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495486086664, "dur":165888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495486252566, "dur":22558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495486275126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495486275130, "dur":104539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495486379682, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495486379696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495486379699, "dur":70234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495486449945, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495486449960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495486449964, "dur":108631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659495486558612, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1659495486558629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495486558633, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1659495486561119, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1659495486561135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659495486561139, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1659495486564159, "dur":925658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485676324, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485676325, "dur":2316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485678644, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1659495485679230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485690705, "dur":14728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1659495485705442, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1659495485705453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485705456, "dur":120116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1659495485825588, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495485825606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485825611, "dur":26202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495485851828, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495485851843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485851848, "dur":39204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495485891066, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495485891080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485891086, "dur":29063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495485920158, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495485920206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485920210, "dur":25538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495485945761, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495485945773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495485945777, "dur":126691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495486072479, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495486072489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495486072493, "dur":134487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495486206997, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495486207015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495486207023, "dur":172353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495486379386, "dur":28656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495486408047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495486408054, "dur":41252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495486449321, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495486449336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495486449342, "dur":108715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659495486558075, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1659495486558092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659495486558100, "dur":19397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1659495486577511, "dur":912308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485676473, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485676474, "dur":2137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485678613, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1659495485678683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485687743, "dur":54335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1659495485742092, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485742110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485742472, "dur":25811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485768299, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485768318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485768324, "dur":43358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485811695, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485811711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485811717, "dur":28111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485839845, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485839860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485839865, "dur":27691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485867568, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485867582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485867586, "dur":52055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485919651, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495485919660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495485919664, "dur":91062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486010739, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486010749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495486010752, "dur":196339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486207104, "dur":50103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486257210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495486257215, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486258259, "dur":31112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486289374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495486289379, "dur":90278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486379669, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486379684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495486379687, "dur":70016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486449719, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486449734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1659495486449738, "dur":123065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1659495486572821, "dur":917001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495485676446, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495485676446, "dur":2178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495485678628, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1659495485678668, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495485687334, "dur":13656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1659495485700999, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495485701021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495485701143, "dur":135876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495485837031, "dur":97583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495485934616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495485934621, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495485935373, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495485935387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495485935391, "dur":153740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495486089144, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495486089163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495486089168, "dur":290231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495486379410, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495486379424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495486379429, "dur":70487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495486449929, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495486449940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495486449943, "dur":109194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1659495486559156, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1659495486559176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495486559180, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1659495486561203, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1659495486561215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1659495486561218, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1659495486562740, "dur":927038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495485676524, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495485676525, "dur":2091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495485678620, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1659495485678657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495485686887, "dur":293180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1659495485980077, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659495485980087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495485980091, "dur":170012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659495486150112, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659495486150120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495486150123, "dur":229142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659495486379275, "dur":34054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659495486413332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495486413336, "dur":36626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659495486449974, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659495486449984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495486449987, "dur":109023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1659495486559023, "dur":1100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1659495486560129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495486560136, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1659495486561629, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1659495486561782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1659495486561786, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/Star Wars Kawga_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1659495486563048, "dur":926732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659495485676603, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659495485676603, "dur":2007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659495485678613, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1659495485678650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659495485684210, "dur":15118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1659495485699337, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1659495485699358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659495485699361, "dur":5742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1659495485705114, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/Bil424/StarWars-Kawga0.2.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659495485705139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1659495485705141, "dur":1784588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/Bil424/StarWars-Kawga0.2.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1659495487489740, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":16, "ts":1659495487489741, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659495487492177, "dur":1378, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1659495487631067, "dur": 463, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659495487630798, "dur": 747, "ph": "X", "name": "Write chrome-trace events", "args": {} },
